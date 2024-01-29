@@ -7,9 +7,11 @@
 This repo contains inference code and gradio demo script using pre-trained U2NET model for Cloths Parsing from human portrait.</br>
 Here clothes are parsed into 3 category: Upper body(red), Lower body(green) and Full body(yellow). The provided script also generates alpha images for each class. 
 
+# Original Source Code
+`https://github.com/wildoctopus/huggingface-cloth-segmentation.git`
 
 # Inference
-- clone the repo `git clone https://github.com/wildoctopus/huggingface-cloth-segmentation.git`.
+- clone the repo `git clone git@github.com:asadrizvi64/Cloth-segmentation.git`.
 - Install dependencies `pip install -r requirements.txt`
 - Run `python process.py --image 'input/03615_00.jpg'` . **Script will automatically download the pretrained model**. 
 - Outputs will be saved in `output` folder.
